@@ -1,0 +1,53 @@
+#contenedor,html{
+	height:100%;padding:0px;margin:0px;
+	background-image: url(https://www.jpl.nasa.gov/assets/images/content/tmp/home/missions_bg_image.jpg);
+	font-family: Arial;
+}
+#moonlander{
+	text-align:center;
+	position:fixed;
+	top:5%;
+	width:100%;
+	height:20%;}
+#moonlander img{height:60%;
+}
+#left-side {
+	display: inline-block; 
+	width: 10%;
+	height: 15%;
+	position: fixed;left: 0px;
+	background-color: green;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	pointer-events: auto;
+	text-align: center;
+}
+#right-side {
+	display: none;
+	background-color: none;
+	background-repeat: no-repeat;
+	background-position: right; 
+	background-size: 60%;
+	display:block !important;
+	pointer-events: auto;
+	width:8%;height:80%;
+	position: fixed; right: 0px;
+	text-align: center;
+}
+#centro {
+    position: absolute;
+    background-color: white;
+	top: 50%;
+    left: 50%;
+    width: 640px;
+    height: 120px;
+    margin-left: -320px;
+    margin-top: -60px;
+    font-size: 24px;
+    color: red;
+    opacity: 0.4;
+	text-align: center;
+}
+
+}

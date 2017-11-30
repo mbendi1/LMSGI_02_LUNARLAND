@@ -1,0 +1,1 @@
+El tema consiste en hacer descender la nave dentro de los parámetros acordados sin que se estrelle contra la superficie lunar.
